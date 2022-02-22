@@ -1,0 +1,521 @@
+@font-face {
+    font-family: "Superclarendon";
+    font-weight: normal;
+    font-style: normal;
+    src: url("Superclarendon Regular.ttf") format("truetype");
+}
+
+body {
+    background-color: black;
+    font-family: "Superclarendon", sans-serif;
+    overflow-x: hidden;
+}
+
+.secondary-titles {
+    color: #D5292C;
+    font-size: 2rem;
+}
+
+.grey-txt {
+    color: #D1CFCF;
+}
+
+.white-big-titles {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.wrapper {
+    width: 100%;
+    padding: 2% 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.row>* {
+    padding: 0;
+}
+
+
+/* Buttons */
+
+
+button {
+    background-color: transparent;
+    border: 1px solid #D5292C;
+    color: #D1CFCF;
+    font-size: 15px;
+    margin-bottom: 2rem;
+    max-width: 200px;
+    padding: 10px 0;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #D5292C;
+    color: #D1CFCF;
+    transition: 0.2s ease-in;
+}
+
+.btn-red {
+    background-color: #D5292C;
+}
+
+.btn-red:hover {
+    background-color: transparent;
+}
+
+#concerts-session .btn-red {
+    color: white;
+}
+
+#concerts-session .btn-red:hover {
+    background-color: #D5292C;
+    opacity: 0.75;
+}
+
+.tour-information button {
+    margin: 5px;
+}
+
+.btn-transparent {
+    background-color: transparent;
+
+}
+
+.btn-transparent:hover {
+    background-color: transparent;
+    opacity: 0.75;
+}
+
+.btn-big-white {
+    background-color: #ffffff;
+    border: none;
+    color: #D5292C;
+    max-width: none;
+    width: 98%;
+}
+
+.btn-bottom {
+    max-width: 270px;
+}
+
+/* First Session */
+#first-session {
+    background-color: black;
+}
+
+#first-session-img {
+    position: absolute;
+    width: 55%;
+}
+
+#first-session-txt {
+    text-align: center;
+}
+
+
+#first-session-txt #text-under-logo {
+    color: #D5292C;
+    font-size: 20px;
+    padding-top: 50%;
+    position: relative;
+    right: 8%;
+}
+
+#white-logo {
+    overflow-x: hidden;
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    width: 54%;
+}
+
+#crash-logo {
+    margin: 5% auto 3% auto;
+    width: 321px;
+}
+
+/* Arrow Session */
+#arrow-wrapper {
+    background-color: black;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+
+#arrow-icon {
+    margin: 0.7rem;
+    max-width: 2%;
+}
+
+/* Merch Session */
+#merch-session {
+    position: relative;
+    z-index: 1;
+    background-color: black;
+    text-align: center;
+    padding: 4em;
+}
+
+#merch-session p {
+    margin: 5px auto;
+    color: #D5292C;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+#merch-session p:hover {
+    margin: 5px auto;
+    color: #D1CFCF;
+    transition: 0.2s ease-in;
+}
+
+.product img {
+    transition: transform .5s;
+    width: 100%;
+}
+
+.product img:hover {
+    transform: scale(1.07);
+}
+
+/* Tour Session */
+.tour-sessions {
+    text-align: center;
+    position: relative;
+    padding: 4% 0;
+}
+
+#cover-container {
+    height: 600px;
+    margin: 2em auto;
+    max-width: 80%;
+    overflow: hidden;
+    padding: 4em 0;
+    position: relative;
+    text-align: center;
+}
+
+#cover {
+    margin: 0 auto;
+    position: relative;
+    transition: all .1s linear;
+    top: 38%;
+    width: 29%;
+}
+
+#tour-dates-container {
+    bottom: 0;
+    height: 600px;
+    left: 0;
+    margin: auto;
+    max-width: 725px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    z-index: 1;
+}
+
+#tour-dates {
+    position: relative;
+    top: 35%;
+    transition: all .1s linear;
+    width: 20%;
+}
+
+#us-tour {
+    margin-bottom: 2%;
+    width: 40%;
+}
+
+/* News Singles Session */
+#new-singles {
+    background-image: url(https://crash.charlixcx.com/assets/img/new-shapes-background-new.jpg);
+    background-position: center top;
+    padding: 2% 0;
+}
+
+#new-singles img {
+    padding: 5% 0;
+    width: 70%;
+}
+
+/* Concerts Session */
+#concerts-session {
+    text-align: center;
+}
+
+#concerts-session-header {
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+.breadcrumb {
+    padding: 0 10px;
+}
+
+.breadcrumb-txt {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.breadcrumb-txt:hover {
+    color: white;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    content: "|";
+    color: white;
+}
+
+.tour-information {
+    align-items: center;
+    line-height: 22px;
+    margin: 0;
+    padding: 10px 15px;
+    text-align: center; 
+}
+
+.tour-information p {
+    margin: 0;
+}
+
+.tour-information:hover {
+    background-color: rgba(81, 81, 81, 0.10);
+}
+
+.date-place {
+    text-align: left;
+}
+
+.date {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.place {
+    color: white;
+    font-size: 16px;
+}
+
+.city-large,
+.city-small {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+.city-small {
+    display: none;
+}
+
+.share-icon {
+    text-align: right;
+    position: relative;
+}
+
+.hidden-div {
+    color: white;
+    background-color: #D5292C;
+    padding: 8px;
+    border-radius: 3px;
+    width: 110px;
+}
+
+.collapse,
+.collapse-horizontal {
+    position: absolute;
+    bottom: 0;
+}
+
+.collapse-horizontal {
+    right: 0;
+}
+
+
+/* Bottom Session */
+#bottom-session {
+    padding: 10px 0;
+    text-align: center;
+    color: #D1CFCF;
+}
+
+#bottom-session a {
+    color: #D1CFCF;
+    text-decoration: none;
+    transition: all .1s linear;
+}
+
+#bottom-session a:hover {
+    color: rgba(209, 207, 207, 0.5);
+    text-decoration: underline;
+}
+
+#social-network {
+    padding: 3% 0;
+    width: 40%;
+    margin: 2em auto 0 auto;
+}
+
+#social-network .fa-brands {
+    transition: all .1s linear;
+}
+
+#social-network .fa-brands:hover {
+    color: rgba(209, 207, 207, 0.5);
+}
+
+@media (max-width: 991px) {
+    button {
+        font-size: 18px;
+    }
+
+    .btn-red {
+        margin-left: 3%;
+    }
+
+    /* First Session */
+    #first-session-img {
+        width: 100%;
+        position: static;
+    }
+
+    #first-session-txt {
+        margin: 0 auto;
+        position: relative;
+        bottom: 200px;
+    }
+
+    #white-logo {
+        overflow-x: visible;
+        position: relative;
+        right: 0;
+        width: 76%;
+    }
+
+    #crash-logo {  
+        margin: 5% auto 3% auto;
+        width: 40%;
+    }
+
+    #first-session-txt #text-under-logo {
+        padding-top: 0;
+        right: 0;
+        left: 3.5%;
+        font-size: 2.2rem;
+    }
+
+    /* Arrow Session */
+    #arrow-wrapper {
+        display: none;
+    }
+
+    /* Merch Session */
+    #merch-session {
+        bottom: 100px;
+        padding: 2em;
+    }
+
+    .product {
+        margin: 6% 0;
+    }
+
+    .product img:hover {
+        transform: scale(1.02);
+    }
+
+    /* Tour Session */
+    #cover-container {
+        margin: 0 auto;
+    }
+
+    #cover {
+        width: 29%;
+    }
+
+    #tour-dates-container {
+        height: 600px;
+        max-width: 725px;
+    }
+
+    #tour-dates {
+        width: 15%;
+    }
+
+    #us-tour {
+        width: 80%;
+    }
+
+    /* New Singles Session */
+    #new-singles img {
+        padding: 1.5% 0;
+        width: 15%;
+    }
+
+    /* Concerts Session */
+    .breadcrumb {
+        padding: 0;
+        justify-content: center;
+    }
+
+    .city-large {
+        display: none;
+    }
+
+    .city-small {
+        display: inline;
+    }
+}
+
+@media (max-width: 767px) {
+    /* Tour Session */
+    #cover-container {
+        height: 550px;
+    }
+
+    #tour-dates {
+        width: 19%;
+    }
+
+    /* Concerts Session */
+    .tour-information {
+        margin: 15px auto;
+        width: 50%;
+    }
+
+    .date-place,
+    .share-icon {
+        text-align: center;
+    }
+
+    .share-options {
+        position: relative;
+        padding: 7px 0;
+    }
+
+    .collapse-horizontal {
+        right: 50%;
+        margin-right: -53px;
+    }
+}
+
+
+@media (max-width: 575px) {
+    /* Tour Session */
+    #tour-dates {
+        top: 33%;
+        width: 150px;
+    }
+}
